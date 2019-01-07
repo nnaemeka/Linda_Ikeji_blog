@@ -1,3 +1,16 @@
+import time
+from bs4 import BeautifulSoup
+import pandas as pd
+import matplotlib.pyplot as plt
+import requests
+import numpy as np
+import datetime
+import pickle
+import os.path
+import csv
+import re
+import header
+
 number_of_pages = 1000
 position = 0
 does_file_exist()
